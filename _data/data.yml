@@ -9,52 +9,49 @@ sidebar:
 
     # Profile information
     name: Alan Doe
-    tagline: Full Stack Developer
+    tagline: Senior Devops Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: example@email.com
     phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    timezone: Asia/Kolkata # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
+    linkedin: automationxpert
     xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
+    github: automationxpert
+    #telegram: # add your nickname without '@' sign
     gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
+    #bitbucket:
+    #twitter: '@jekyllrb'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # mastodon:  # Please include your full Mastodon link here.
+    # hackerrank: # Please provide your HackerRank username.
+    # leetcode: # Please provide your LeetCode username.
     pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
       info:
         - idiom: English
+          level: Professional
+
+        - idiom: Tamil
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Homelabbing
           link:
 
-        - item: Snowboarding
+        - item: Music
           link:
 
-        - item: Cooking
+        - item: Continuous learner of innovative technical skills
           link:
 
 career-profile:
@@ -69,9 +66,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: BE in Electronics and Communication Engineering
+        university: Anna University
+        time: 2011 - 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -80,24 +77,24 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      # - degree: BSc in Applied Mathematics
+      #   university: Bristol University
+      #   time: 2007 - 2011
+      #   details: |
+      #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #     pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
 
 experiences:
     title: Experiences
     info:
       - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+        time: 2020 - Present
+        company: DHL IT Services, Chennai
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -110,9 +107,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Senior Automation Specialist
+        time: 2016 - 2020
+        company: HCL Technologies, Chennai
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -121,27 +118,27 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      # - role: UI Developer
+      #   time: 2012 - 2014
+      #   company: Amazon, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+      #       - Bullet point
+      #       - Bullet point
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
+        - name: CKA
+          start: 2024
+          end: 2026
+          organization: Linux Foundations
           credentialid: 111-222
-          credentialurl: www.google.com
+          credentialurl: www.linuxfoundation.com
           credentialname: Google
           details: |
             Details about cert. Lorem ipsum dolor sit amet, consectetur
@@ -246,23 +243,26 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Kubernetes
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: CI/CD
         level: 98%
 
-      - name: Angular
+      - name: Git
         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Powershell
+        level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Problem Solving
+        level: 92%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Cloud & AI
+        level: 80%
+
+      - name: Python
+        level: 78%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://automationexpert.netlify.app" target="_blank" rel="nofollow">Xiaoying Riley</a>
